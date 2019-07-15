@@ -1,0 +1,19 @@
+djangorestframework==3.9.2
+django-environ==0.4.5  # https://github.com/joke2k/django-environ
+Django==2.1.7
+Pygments==2.3.1
+Markdown==3.1
+coreapi==2.3.3
+psycopg2-binary==2.7.7
+dj-database-url==0.5.0
+gunicorn==19.9.0
+whitenoise==4.1.2
+PyYAML==5.1
+django-rest-auth
+django-allauth
+django-rest-swagger
+djangorestframework_jwt
+gunicorn==19.9.0
+django-localflavor==2.2
+django-anymail[mailgun]==5.0  # https://github.com/anymail/django-anymail
+django-model-utils==3.1.2
