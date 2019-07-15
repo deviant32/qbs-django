@@ -53,7 +53,8 @@ INSTALLED_APPS = [
     "users",
     "localflavor",
     "anymail",
-    'testkit'
+    "testkit",
+    "allauth.socialaccount"
 ]
 
 MIDDLEWARE = [
