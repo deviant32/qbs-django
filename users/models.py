@@ -46,7 +46,8 @@ class User(AbstractUser):
         choices=USER_TYPE_CHOICES, default="patient", max_length=15
     )
 
-    testkits = models.ManyToManyField(TestKit, related_name="testkits")
+    testkits = models.ManyToManyField(
+        TestKit, related_name="testkits", blank=True)
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
