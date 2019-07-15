@@ -223,6 +223,15 @@ JWT_AUTH = {
     "JWT_AUTH_COOKIE": None,
 }
 
+AUTHENTICATION_BACKENDS = (
+    ...
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
+
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CSRF_TRUSTED_ORIGINS = ["quadrant-bio.herokuapp.com"]
