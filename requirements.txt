@@ -1,4 +1,4 @@
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 django-environ==0.4.5  # https://github.com/joke2k/django-environ
 Django==2.1.7
 Pygments==2.3.1
